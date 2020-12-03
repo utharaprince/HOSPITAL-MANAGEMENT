@@ -82,7 +82,7 @@ public class docreg extends Frame{
             try {
                   Class.forName("com.mysql.jdbc.Driver");
                   String url ="jdbc:mysql://127.0.0.1:3306/proj1";
-                  Connection con=DriverManager.getConnection(url,"root","Uthara@1");
+                  Connection con=DriverManager.getConnection(url,"root","password");
                   if(con!=null)
                    {
                       PreparedStatement ps = con.prepareStatement(query);
